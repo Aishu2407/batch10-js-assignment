@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fruits = ["grapes" ,"orange" ,"kivi" , "Mango","Apple"];
+ console.log(fruits);
+ console.log(typeof fruits);
+
+ var isArray = Array.isArray(fruits)
+console.log(isArray);
+
+
+fruits.push("dragon","pineapple") //add new element in a array at end
+console.log(fruits);
+
+console.log(fruits.pop());//delete end element in array
+console.log(fruits);
+
+//add new element in array .how many data we will using unshift method all the data will be added before starting the array
+console.log(fruits.unshift("pomogranate","cucumber","watermelon"));
+console.log(fruits);
+
+console.log(fruits.shift());// delect first element in array
+
+// an array includes a certain element, returning true or false 
+console.log(fruits.includes("orange" , 5));
+
+
+console.log(fruits.splice(0,1));
+
+
+console.log(fruits.slice(2,5));
+
+console.log(fruits.slice(-5,-2));
+
+
+
+
+    </script>
+</body>
+</html>
